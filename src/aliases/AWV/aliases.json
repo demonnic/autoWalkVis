@@ -1,0 +1,22 @@
+[
+  {
+    "name": "start highlights",
+    "regex": "^awv start$",
+    "script": "autoWalkVis:start()"
+  },
+  {
+    "name": "stop and clear",
+    "regex": "^awv clear$",
+    "script": "autoWalkVis:stop(true)"
+  },
+  {
+    "name": "stop highlights",
+    "regex": "^awv stop",
+    "script": "autoWalkVis:stop()"
+  },
+  {
+    "name": "show report",
+    "regex": "^awv report$",
+    "script": "autoWalkVis:report()"
+  }
+]
